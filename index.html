@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-9">
+    <title>Добро пожаловать</title>
+    <meta name="author" content="Sasi Vitalii">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="Portfolio Sasi Vitalii">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/index.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="section intro">
+        <header class="intro__header">
+          <button class="autorization-btn">Авторизоваться</button>
+        </header>
+        <div class="intro__content">
+          <div class="intro__container">
+            <div class="intro__author">
+              <div class="intro__whoami">
+                <div class="whoami">
+                  <div class="whoami__photo" style="background-image: url('images/photos/avatar-photo.jpg');"> </div>
+                  <div class="whoami__name">Саси Виталий</div>
+                  <div class="whoami__discription">Личный сайт веб разработчика</div>
+                </div>
+              </div>
+              <div class="intro__socials">
+                <div class="socials">
+                  <ul class="socials__list">
+                    <li class="socials__item"><a class="socials__link" href="#">
+                        <svg class="socials__icon" width="26" height="22">
+                          <use xlink:href="images/sprite/mySprite.min.svg#github"></use>
+                        </svg></a></li>
+                    <li class="socials__item"><a class="socials__link" href="#">
+                        <svg class="socials__icon" width="24" height="22">
+                          <use xlink:href="images/sprite/mySprite.min.svg#in"></use>
+                        </svg></a></li>
+                  </ul>
+                </div>
+              </div>
+              <nav class="about-menu">
+                <ul class="about-menu__list">
+                  <li class="about-menu__item"><a class="about-menu__link" href="my-works.html">работы</a></li>
+                  <li class="about-menu__item"><a class="about-menu__link" href="about.html">Обо мне</a></li>
+                  <li class="about-menu__item"><a class="about-menu__link" href="blog.html">Блог</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="intro__login">
+              <div class="login">
+                <form action="GET">
+                  <div class="login__form">
+                    <div class="login__row">
+                      <div class="section-title section-title_login">Авторизуйтесь</div>
+                    </div>
+                    <div class="login__row">
+                      <div class="login__icon-container">
+                        <svg class="login__icon" width="15" height="17">
+                          <use xlink:href="images/sprite/mySprite.min.svg#login"></use>
+                        </svg>
+                      </div>
+                      <input class="login__input" type="login" placeholder="Логин">
+                      <div class="login__pop-up">Вы не ввели логин</div>
+                    </div>
+                    <div class="login__row"> 
+                      <div class="login__icon-container">            
+                        <svg class="login__icon" width="18" height="17">
+                          <use xlink:href="images/sprite/mySprite.min.svg#password"></use>
+                        </svg>
+                      </div>
+                      <input class="login__input" type="password" placeholder="Пароль">
+                      <div class="login__pop-up">Вы не ввели пароль</div>
+                    </div>
+                    <div class="login__row">
+                      <label class="login_label"> 
+                        <input class="login__input-checkbox" type="checkbox" checked>
+                        <div class="login__checkbox-fake">
+                          <svg class="login__checkbox-fake-svg" width="10" height="10">
+                            <use xlink:href="images/sprite/mySprite.min.svg#check"></use>
+                          </svg>
+                        </div>
+                        <div class="login__text">Я человек</div>
+                      </label>
+                    </div>
+                    <div class="login__row">
+                      <div class="login__text">Вы точно не робот?</div>
+                    </div>
+                    <div class="login__row">
+                      <label class="login_label">
+                        <input class="login__input-radio" type="radio" name="i-you-sure" value="yes">
+                        <div class="login__radio-fake"></div>
+                        <div class="login__text">Да </div>
+                      </label>
+                      <label class="login_label">
+                        <input class="login__input-radio" type="radio" name="i-you-sure" value="no" checked>
+                        <div class="login__radio-fake"></div>
+                        <div class="login__text">Не уверен</div>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="login__form-btns">
+                    <button class="resume green-btn-style" type="button">На главную</button>
+                    <input class="login__input-submit green-btn-style" type="submit" value="Войти">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="intro__footer">
+          <div class="author">© Саси Виталий | создано с любовью на основе курсов школы LoftSchool | 2018</div>
+        </footer>
+      </section>
+    </div>
+    <script src="./scripts/index.min.js"></script>
+  </body>
+</html>
